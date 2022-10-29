@@ -1,0 +1,102 @@
+/*
+Header
+*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+Header
+*/
+
+body {
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  background: linear-gradient(#a2d2ff,  #EFB0C9);
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0px 0px 1px #000000;
+}
+
+#bday-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #EFB0C9;
+  margin-bottom: 10px;
+}
+
+#bday-age {
+  background: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 600px 10px 600px;
+}
+
+#bday-date {
+  margin: 10px 625px 10px 625px;
+  background: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-img {
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover; /*Squeezes size into the width we have*/
+  margin: 0 auto; /*make it is in the center*/
+  height: 400px;
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 15px;
+  align-items: center;
+}
+
+#gift-img-happy:hover {
+  background-image: url("images/happy.gif");
+}
+
+#gift-img-excited:hover {
+  background-image: url("images/excited.gif");
+}
+#gift-img-daughter:hover {
+  background-image: url("images/daughter.gif");
+}
+
+#gift-img-awesome:hover {
+  background-image: url("images/badass.gif");
+}
+
+#gift-img-awesome2:hover {
+  background-image: url("images/Omar\(sm\)-3.jpg");
+}
+
+#gift-img-beverage:hover {
+  background-image: url("images/iceCoffee.gif");
+}
+
+/*
+Header
+*/
+
+#footer {
+  font-style: italic;
+  color: black;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: white;
+}
